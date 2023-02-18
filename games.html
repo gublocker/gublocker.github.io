@@ -7,19 +7,35 @@
     <title>New Tab</title>
     <link href="style.css" type="text/css" rel="stylesheet">
     <link href="https://unpkg.com/movement.css/movement.css" rel="stylesheet"
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="topnav">
         <div data-m="reveal" class="active"><a href="index.html">Home</a></div>
         <div data-m="reveal"><a href="games.html">Games</a></div>
+        <div data-m="reveal"><a href="proxy/index.html">Proxy</a></div>
     </div>
     <h1>game unblocker 2.0 - Games</h1>
     <h3>The games page.</h3>
-    <p><a href="gba.html"><button class="game">GBA</button></a></p>
-    <p><a href="library/1v1lol.html"><button class="game">1v1.lol</button></a></p>
-    <p><a href="library/ovo.html"><button class="game">ovo</button></a></p>
-    <p><a href="library/flap.html"><button class="game">flappy bird</button></a></p>
-    <p><a href="library/gd.html"><button class="game">GD</button></a></p>
-    <p><a href="library/happywheels.html"><button class="game">Happy Wheels</button></a></p>
+    <ol id="list" style="align-items:center;">
+        <p><input id="searchbar" class="search" type="text" placeholder="Search games... (NON FUNCTIONAL)" onkeyup="Search()"></p>
+        <p style="text-align: center;"><a href="gba.html"><button class="game">GBA</button></a></p>
+        <p style="text-align: center;"><a href="library/1v1lol.html"><button class="game">1v1.lol</button></a></p>
+        <p style="text-align: center;"><a href="library/ovo.html"><button class="game">ovo</button></a></p>
+        <p style="text-align: center;"><a href="library/flap.html"><button class="game">flappy bird</button></a></p>
+        <p style="text-align: center;"><a href="library/gd.html"><button class="game">GD</button></a></p>
+        <p style="text-align: center;"><a href="library/happywheels.html"><button class="game">Happy Wheels</button></a></p>
+        <p style="text-align: center;"><a href="library/goi.html"><button class="game">Getting Over It</button></a></p>
+        <p style="text-align: center;"><a href="library/rs.html"><button class="game">Riddle School</button></a></p>
+        <p style="text-align: center;"><a href="library/rs2.html"><button class="game">Riddle School 2</button></a></p>
+        <p style="text-align: center;"><a href="library/bald.html"><button class="game">Baldi's Basics</button></a></p>
+        <p style="text-align: center;"><a href="https://bgcs.instructure.com/courses/0"><button class="game">Discord</button></a></p>
+        <p style="text-align: center;"><a href="library/fnaf1.html"><button class="game">FNAF</button></a></p>
+        <p style="text-align: center;"><a href="library/fnaf2.html"><button class="game">FNAF 2</button></a></p>
+        <p style="text-align: center;"><a href="library/fnaf3.html"><button class="game">FNAF 3</button></a></p>
+        <p style="text-align: center;"><a href="library/fnaf4.html"><button class="game">FNAF 4</button></a></p>
+        <p style="text-align: center;"><a href="library/paperio2.html"><button class="game">Paper.io 2</button></a></p>
+    </ol>
 </body>
 </html>
