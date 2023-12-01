@@ -30,7 +30,13 @@ var splashes=[
     "3.0 release or something.",
     "I added a lot of these for this update",
     "bob man",
-    "GET *FREE* ROBUX WITH MY LINK IN THE DESCRIPTION 🤑🤑💰"
+    "GET *FREE* ROBUX WITH MY LINK IN THE DESCRIPTION 🤑🤑💰",
+    "did you know anime causes brain rot.",
+    "Ms Blue better not catch you using this site.",
+    "sigma male 🗿🍷",
+    "1.4 GPA activities.",
+    "Josh Hutcherson",
+    "super secret splash message update lol"
 ]
 
 function getRandomSplash() {
