@@ -38,7 +38,9 @@ var splashes=[
     "Josh Hutcherson",
     "super secret splash message update lol",
     "definitely not a scam.",
-    "∞ games"
+    "∞ games", 
+    "😤😤😤🧐😔😳🫣🤔🫡💀💀💀🤜👀🫧🥛",
+    "     "
     
 ]
 
