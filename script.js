@@ -36,7 +36,10 @@ var splashes=[
     "sigma male 🗿🍷",
     "1.4 GPA activities.",
     "Josh Hutcherson",
-    "super secret splash message update lol"
+    "super secret splash message update lol",
+    "definitely not a scam.",
+    "∞ games"
+    
 ]
 
 function getRandomSplash() {
