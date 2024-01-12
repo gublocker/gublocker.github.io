@@ -78,17 +78,20 @@ ScoreTracker.prototype.updateScore = function(config) {
 	    tickerLines.push("Double");
 	    linesCleared += 3;
 	    scoreDiff += 300 * this.level;
+        level+=1;
 	    break;
 	case 3:
 	    tickerLines.push("Triple");
 	    linesCleared += 5;
 	    scoreDiff += 500 * this.level;
+        level+=2;
 	    break;
 	case 4:
 	    tickerLines.push("TETRIS");
 	    linesCleared += 8;
 	    isBonus = true;
 	    scoreDiff += 800 * this.level;
+        level+=5;
 	    break;
 	}
     }
