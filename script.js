@@ -32,7 +32,6 @@ var splashes=[
     "bob man",
     "GET *FREE* ROBUX WITH MY LINK IN THE DESCRIPTION 🤑🤑💰",
     "did you know anime causes brain rot.",
-    "Ms Blue better not catch you using this site.",
     "sigma male 🗿🍷",
     "1.4 GPA activities.",
     "Josh Hutcherson",
@@ -41,7 +40,7 @@ var splashes=[
     "∞ games", 
     "😤😤😤🧐😔😳🫣🤔🫡💀💀💀🤜👀🫧🥛",
     "'Tetris is too easy' - 🤓",
-    "Ms. Blue after watching someone have fun: 🤬"
+    "Ms. Blue after watching someone have fun: 🤬",
 ]
 
 function getRandomSplash() {
