@@ -50,7 +50,7 @@ a:active { text-decoration: none; text-align: center; }
   color:rgb(255, 255, 255);
   opacity: 0.4;
   transition: opacity 0.5s;
-  font-family: Arial;
+  font-family: 'Varela Round';
   text-decoration: none;
   margin:8px;
 }
@@ -59,7 +59,7 @@ a:active { text-decoration: none; text-align: center; }
   opacity: 1.0;
   transition: opacity 0.5s;
   color:rgb(255, 255, 255);
-  font-family: Arial;
+  font-family: 'Varela Round';
   text-decoration: none;
 }
 
