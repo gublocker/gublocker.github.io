@@ -40,8 +40,8 @@ var splashes=[
     "definitely not a scam.",
     "∞ games", 
     "😤😤😤🧐😔😳🫣🤔🫡💀💀💀🤜👀🫧🥛",
-    "     "
-    
+    "'Tetris is too easy' - 🤓",
+    "Ms. Blue after watching someone have fun: 🤬"
 ]
 
 function getRandomSplash() {
