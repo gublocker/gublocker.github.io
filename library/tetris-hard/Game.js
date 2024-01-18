@@ -44,7 +44,7 @@ function Game(inputMapping, autoRepeat, threshold) {
     }
 
     this.swapGroup = null;
-    this.swapAllowed = true;
+    this.swapAllowed = false;
 
     // the currently occupied positions, number of blocks at a position
     // indexed by the position as a string
@@ -123,11 +123,6 @@ Game.prototype.newBlock = function (calledBySwap) {
     
     if (this.controlGroup.isIllegalStart) {
 	this.gameLost = true;
-    }
-
-    if (!calledBySwap) {
-	// the user is allowed to swap blocks again
-	this.swapAllowed = true;
     }
 
     this.updatePreviews(this.randBag.getQueue());
@@ -252,11 +247,6 @@ Game.prototype.draw = function(dTime) {
     // draw the preview blocks
     for (i = 0; i < 4; i += 1) {
 	this.previewBlocks[i].drawIfInvalid();
-    }
-
-    // draw the swap block
-    if (this.swapGroup) {
-	this.swapGroup.draw();
     }
 
     // draw the queue
