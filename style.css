@@ -63,6 +63,23 @@ a:active { text-decoration: none; text-align: center; }
   text-decoration: none;
 }
 
+.game-highlight {
+  color:rgb(141, 255, 129);
+  opacity: 0.4;
+  transition: opacity 0.5s;
+  font-family: 'Varela Round';
+  text-decoration: none;
+  margin:8px;
+}
+
+.game-highlight:hover {
+  opacity: 1.0;
+  transition: opacity 0.5s;
+  color:rgb(205, 255, 175);
+  font-family: 'Varela Round';
+  text-decoration: none;
+}
+
 .game-container {
   margin: auto;
   width: 90%;
@@ -145,21 +162,15 @@ h3 {
   font-size: 24px;
 }
 
-#search {
-  width: 160px;
-  height: 20px;
-  border-radius: 10px;
-  margin-left: 80px;
-  margin-bottom: 5px;
+.dev-input {
+  text-align: left;
+  border-radius: 5px;
+  width: 130px;
+  height: 25px;
   outline: none;
-  text-decoration: none;
-  text-align: center;
-  background-color: rgb(70,70,70);
   color:white;
-  font-family: 'Varela Round';
-  outline-color: black;
+  background-color: rgb(88, 88, 88);
 }
-
-.search-div {
-  margin-bottom: 10px;
+.dev-button:active {
+  border-style: outset;
 }

@@ -30,16 +30,16 @@ var splashes=[
     "I added a lot of these for this update",
     "bob man",
     "GET *FREE* ROBUX WITH MY LINK IN THE DESCRIPTION 🤑🤑💰",
-    "did you know anime causes brain rot.",
     "sigma male 🗿🍷",
     "1.4 GPA activities.",
     "Josh Hutcherson",
-    "super secret splash message update lol",
     "definitely not a scam.",
     "∞ games", 
     "😤😤😤🧐😔😳🫣🤔🫡💀💀💀🤜👀🫧🥛",
     "'Tetris is too easy' - 🤓",
-    "Ms. Blue after watching someone have fun: 🤬",
+    "Are you excited for testing? Me:🙅‍♂️",
+    "Maybe don't yell about this sites existence in class it will probably get banend at your school.",
+    "The most popular page on this website is the 404 error page"
 ]
 
 function getRandomSplash() {
