@@ -17,17 +17,12 @@ var splashes=[
     "Lawsuits sold seperately.",
     "c.ai coming soon!",
     "someone should fix page not found.",
-    "gameub 2.2 before gd 2.2",
-    "2.3 in 6 months!",
-    "Winter update!",
     "Will work for vbucks.",
     "Best on the market.",
     "Chromebooks here are worth $20.",
     "JERRY!!",
     "Better play with fullscreen mode",
     "The teachers dont know... Or do they? *vsauce theme*",
-    "3.0 release or something.",
-    "I added a lot of these for this update",
     "bob man",
     "GET *FREE* ROBUX WITH MY LINK IN THE DESCRIPTION 🤑🤑💰",
     "sigma male 🗿🍷",
@@ -38,8 +33,13 @@ var splashes=[
     "😤😤😤🧐😔😳🫣🤔🫡💀💀💀🤜👀🫧🥛",
     "'Tetris is too easy' - 🤓",
     "Are you excited for testing? Me:🙅‍♂️",
-    "Maybe don't yell about this sites existence in class it will probably get banend at your school.",
-    "The most popular page on this website is the 404 error page"
+    "The most popular page on this website is the 404 error page",
+    "skibidi toilet 🚽👨",
+    "#1 game site for freezing chrombooks.",
+    "i eat styrofoam for fun.",
+    "You should eat uranium.",
+    "Dan was here. (still not the developer btw)",
+    "https://www.reddit.com/r/teenagers/comments/1alkq3x/boys_are_social_experiments/"
 ]
 
 function getRandomSplash() {
