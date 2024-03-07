@@ -39,7 +39,10 @@ var splashes=[
     "i eat styrofoam for fun.",
     "You should eat uranium.",
     "Dan was here. (still not the developer btw)",
-    "https://www.reddit.com/r/teenagers/comments/1alkq3x/boys_are_social_experiments/"
+    "https://www.reddit.com/r/teenagers/comments/1alkq3x/boys_are_social_experiments/",
+    "The king of no updates (right next to karlson)",
+    "Might make good updates sometimes.",
+    ""
 ]
 
 function getRandomSplash() {
