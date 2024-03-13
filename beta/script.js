@@ -15,5 +15,5 @@ function autoLogin() {
 }
 
 function LoadURL(url) {
-	document.getElementById("loader").src = `https://${url}`;
+	document.getElementById("loader").src = `${url}`;
 }
