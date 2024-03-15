@@ -19,54 +19,20 @@
     </div>
   </div>
   <p class="half-spacer">SPACER</p>
-  <p>Enter beta password:<input type="text" id="pass" class="dev-input" maxlength=20><button onclick="CheckPassword()"class="dev-button">Input</button></p>
+  <div id="password-enter">
+    <p>Enter beta password:<input type="text" id="pass" class="dev-input" maxlength=20 style="color: white"><button onclick="CheckPassword()"class="dev-button">Input</button><button id="show" class="dev-button" style="margin-left: 10px;">Show (hover)</button></p>
+    <p id="entered">Incorrect password: <span id="entered-pass"></span></p>
+  </div>
   <div id="betas">
 	  <p class="spacer">SPACER</p>
   	<h2 data-m="bounce-up" data-m-delay="1.0">game unblocker 4.0 - beta branch</h2>
   	<p class="spacer">SPACER</p>
   	<h1>Current active betas: </h1>
-  	<p class="spacer">SPACER</p>
-	<p>webproxy-beta</p>
-  <div class="game-container">
-    <button class='dev-button' onclick='LoadURL("https://womginx.arph.org/")'>womginx</button>
-    <button class='dev-button' onclick='LoadURL("https://polarislearning.org/search")'>polaris</button>
-    <button class='dev-button' onclick='LoadURL("https://cool.blinklab.com")'>blinklab</button>
-    <button class='dev-button' onclick='LoadURL("https://zowdl6.sse.codesandbox.io")'>zowdl6</button>
-    <button class='dev-button' onclick="LoadURL('https://bzvih6.sse.codesandbox.io/')">proxy link 0</button>
-    <button class='dev-button' onclick="LoadURL('https://ojgk6.sse.codesandbox.io/')">proxy link 1</button>
-    <button class='dev-button' onclick="LoadURL('https://u8lx6f.sse.codesandbox.io/')">proxy link 2</button>
-    <button class='dev-button' onclick="LoadURL('https://xrit2.sse.codesandbox.io/')">proxy link 3</button>
-    <button class='dev-button' onclick="LoadURL('https://yxyowj.sse.codesandbox.io/')">proxy link 4</button>
-    <button class='dev-button' onclick="LoadURL('https://wje63.sse.codesandbox.io/')">proxy link 5</button>
-    <button class='dev-button' onclick="LoadURL('https://woqdc9.sse.codesandbox.io/')">proxy link 6</button>
-    <button class='dev-button' onclick="LoadURL('https://vtjp3.sse.codesandbox.io/')">proxy link 7</button>
-    <button class='dev-button' onclick="LoadURL('https://4dm56.sse.codesandbox.io/')">proxy link 8</button>
-    <button class='dev-button' onclick="LoadURL('https://iubn62.sse.codesandbox.io/')">proxy link 9</button>
-    <button class='dev-button' onclick="LoadURL('https://ogtdrg.sse.codesandbox.io/')">proxy link 10</button>
-    <button class='dev-button' onclick="LoadURL('https://vith7t.sse.codesandbox.io/')">proxy link 11</button>
-    <button class='dev-button' onclick="LoadURL('https://f6gfz9.sse.codesandbox.io/')">proxy link 12</button>
-    <button class='dev-button' onclick="LoadURL('https://hx89zg.sse.codesandbox.io/')">proxy link 13</button>
-    <button class='dev-button' onclick="LoadURL('https://lc443.sse.codesandbox.io/')">proxy link 14</button>
-    <button class='dev-button' onclick="LoadURL('https://y5szng.sse.codesandbox.io/')">proxy link 15</button>
-    <button class='dev-button' onclick="LoadURL('https://iwox73.sse.codesandbox.io/')">proxy link 16</button>
-    <button class='dev-button' onclick="LoadURL('https://dcqrmp.sse.codesandbox.io/')">proxy link 17</button>
-    <button class='dev-button' onclick="LoadURL('https://7vf5c4.sse.codesandbox.io/')">proxy link 18</button>
-    <button class='dev-button' onclick="LoadURL('https://6u2bkn.sse.codesandbox.io/')">proxy link 19</button>
-    <button class='dev-button' onclick="LoadURL('https://0cgdkq.sse.codesandbox.io/')">proxy link 20</button>
-    <button class='dev-button' onclick="LoadURL('https://7ubruh.sse.codesandbox.io/')">proxy link 21</button>
-    <button class='dev-button' onclick="LoadURL('https://lvsu0v.sse.codesandbox.io/')">proxy link 22</button>
-    <button class='dev-button' onclick="LoadURL('https://cx79yo.sse.codesandbox.io/')">proxy link 23</button>
-    <button class='dev-button' onclick="LoadURL('https://3c8ri.sse.codesandbox.io/')">proxy link 24</button>
-    <button class='dev-button' onclick="LoadURL('https://680gdw.sse.codesandbox.io/')">proxy link 25</button>
-    <button class='dev-button' onclick="LoadURL('https://gz0pkd.sse.codesandbox.io/')">proxy link 26</button>
-    <button class='dev-button' onclick="LoadURL('https://nw3d0.sse.codesandbox.io/')">proxy link 27</button>
-    <button class='dev-button' onclick="LoadURL('https://slf17r.sse.codesandbox.io/')">proxy link 28</button>
-    <button class='dev-button' onclick="LoadURL('https://88y49.sse.codesandbox.io/')">proxy link 29</button>
-    <button class='dev-button' onclick="LoadURL('https://gcd88.sse.codesandbox.io/')">proxy link 30</button>
-    <button class='dev-button' onclick="LoadURL('https://r3vc1t.sse.codesandbox.io/')">proxy link 31</button>
-    <button class='dev-button' onclick="LoadURL('https://uqgcoj.sse.codesandbox.io/')">proxy link 32</button>    
-	</div>
-	<p class="spacer">SPACER</p>
-	<p><iframe src="about:blank" width=640px height=480px id="loader"></iframe></p>
+  	<p class="half-spacer">SPACER</p>
+    <p> No active betas.</p>
+    <p class="spacer">SPACER</p>
+    <h1>Past betas: </h1>
+    <p class="half-spacer">SPACER</p>
+    <p><b>webproxy-beta</b> - unsuccessful due to proxies not working :(</p>
   </div>
 </body>
