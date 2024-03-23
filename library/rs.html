@@ -1,5 +1,33 @@
-<head><title>New Tab</title><link href="style.css" type="text/css" rel="stylesheet"></head>
-<body>
-    <iframe src="https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Friddle-school.xml" height="100%" width="100%">
-</iframe>
-</body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>New Tab</title>
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+          <script>
+            function toggleFullscreen() {
+              var iframe = document.getElementById("game-iframe");
+      
+              if (!document.fullscreenElement) {
+                iframe.requestFullscreen().catch((err) => {
+                  console.log(
+                    `Error attempting to enable full-screen mode: ${err.message} (${err.name})`
+                  );
+                });
+              } else {
+                if (document.exitFullscreen) {
+                  document.exitFullscreen();
+                }
+              }
+            }
+          </script>
+        </head>
+        <body>
+        <script src="random.js"></script>
+        <embed
+        id="game-iframe"
+        src="riddleschool.swf"
+        width="960px"
+        height="720px"
+        frameborder="0" />
+  </body>
+</html>

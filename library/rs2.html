@@ -1,2 +1,33 @@
-<head><title>New Tab</title></head>
-<body><iframe src="https://raw.githack.com/3kh0/3kh0-assets/main/riddleschool2/index.html" width="100%" height="100%"></body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>New Tab</title>
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+          <script>
+            function toggleFullscreen() {
+              var iframe = document.getElementById("game-iframe");
+      
+              if (!document.fullscreenElement) {
+                iframe.requestFullscreen().catch((err) => {
+                  console.log(
+                    `Error attempting to enable full-screen mode: ${err.message} (${err.name})`
+                  );
+                });
+              } else {
+                if (document.exitFullscreen) {
+                  document.exitFullscreen();
+                }
+              }
+            }
+          </script>
+        </head>
+        <body>
+        <script src="random.js"></script>
+        <embed
+        id="game-iframe"
+        src="riddleschool2.swf"
+        width="960px"
+        height="720px"
+        frameborder="0" />
+  </body>
+</html>
