@@ -1,6 +1,6 @@
 document.getElementById("betas").style.display="none";
 
-debug=false;
+debug=true;
 
 if (debug) autoLogin();
 
@@ -26,6 +26,7 @@ function CheckPassword() {
 
 function autoLogin() {
 	document.getElementById("betas").style.display="block"; 
+	pass.style.color = "#000";
 	pass.value="DO NOT COMMIT";
 }
 
