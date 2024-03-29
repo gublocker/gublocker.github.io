@@ -1,6 +1,6 @@
 document.getElementById("betas").style.display="none";
 
-debug=true;
+debug=false;
 
 if (debug) autoLogin();
 
