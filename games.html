@@ -8,6 +8,7 @@
     <link href="style.css" type="text/css" rel="stylesheet">
     <link href="https://unpkg.com/movement.css/movement.css" rel="stylesheet">
     <script src="gamesCount.js" defer></script>
+    <script src="gamesort.js" defer></script>
 </head>
 <body>
     <div id="navigation" data-m="reveal-right" data-m-delay="2.0">
@@ -26,9 +27,9 @@
       </div>
       <p class="half-spacer">SPACER</p>
       <p>Current game count: <span id="gameCount"></span></p>
-      <div class="game-container">
-        <a href="library/adofai.html" class="game">adofai</a>
-        <a href="library/bald.html" class="game">Baldi's Basics</a>
+      <div class="game-container" id="games">
+        <a href="library/adofai.html" class="game">ADOFAI</a>
+        <a href="library/baldiweb/index.html" class="game">Baldi's Basics</a>
         <a href="library/bloxors.html" class="game">Bloxors</a>
         <a href="library/cell.html" class="game">Cell Machine</a>
         <a href="library/coreball.html" class="game">Coreball</a>
@@ -41,7 +42,7 @@
         <a href='library/fnafsl/index.html' class='game' id="fnaf5">FNAF: Sister Location</a>
         <a href="library/gd.html" class="game">GD</a>
         <a href="library/goi.html" class="game">GOI</a>
-        <a href="library/percision.html" class="game">Minecraft</a>
+        <a href="library/eagler.html" class="game">Minecraft</a>
         <a href="library/ovo/index.html" class="game">OvO</a>
         <a href="library/rs.html" class="game" id="rs-series">Riddle School</a>
         <a href="library/rs2.html" class="game" id="rs-series">Riddle School 2</a>
@@ -83,7 +84,7 @@
         <a href="library/swerve.html" class="game">Swerve</a>
 	    <a href="library/cubefield/index.html" class="game">CUBEFIELD</a>
         <a href="library/smb/index.html" class="game">Super Mario Bros.</a>
-		<a href="library/smb/nes/index.html" class="game">(NES) Super Mario Bros.</a>
+		<a href="library/smb/nes/index.html" class="game">Super Mario Bros. (NES)</a>
         <a href="library/sketchbook.html" class="game">Sketchbook</a>
 		<a class="game" href="library/sm64-webgl/index.html">Super Mario 64</a>
 		<a class="game" href="library/whg.html">Worlds Hardest Game</a>
