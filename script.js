@@ -36,14 +36,14 @@ var splashes=[
     "Are you excited for testing? Me:🙅‍♂️",
     "The most popular page on this website is the 404 error page",
     "skibidi toilet 🚽👨",
-    "#1 game site for freezing chrombooks.",
+    "#1 game site for freezing chromebooks.",
     "i eat styrofoam for fun.",
     "You should eat uranium.",
     "Dan was here. (still not the developer btw)",
     "https://www.reddit.com/r/teenagers/comments/1alkq3x/boys_are_social_experiments/",
     "The king of no updates (right next to karlson)",
     "Might make good updates sometimes.",
-    ""
+    "Me when I forget this message exists."
 ]
 
 function getRandomSplash() {
